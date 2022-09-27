@@ -21,9 +21,8 @@ def prob_trans(v1,v2):
     v2_norm=numpy.linalg.norm(v2)
     for i in range(len(v2)):
         v2[i]=v2[i]/v2_norm
-    print(v1)
-    v1_adj=numpy.matrix.getH(v1_norm)
-    print()
+    prod_inter=numpy.inner(v1,v2)
+    print(prod_inter)
 prob_trans([1,-1j],[1j,1])
 
 
