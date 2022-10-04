@@ -42,6 +42,3 @@ def media_varianza(m,v):
     if m!=new_m:
         raise Exception("La matriz no es hermitiana")
 
-
-
-
